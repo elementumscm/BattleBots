@@ -1,4 +1,3 @@
-# nodeconf-2
-For NodeConf Ar. October 28 2017
-
+# NodeConfAR17 - Battle Bots
+This is the logic behind the battling tanks on our stand. 
  
