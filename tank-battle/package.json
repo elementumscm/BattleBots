@@ -1,0 +1,33 @@
+{
+  "name": "tank-battle",
+  "version": "1.0.0",
+  "description": "Tank battles server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test",
+    "flash": "interchange install --interactive",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Marcos Tomatti <markost@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.5.0",
+    "etherport": "^0.2.0",
+    "express": "^4.15.4",
+    "johnny-five": "^0.11.6",
+    "keypress": "^0.2.1",
+    "nodebots-interchange": "^1.1.6",
+    "socket.io": "^2.0.3",
+    "temporal": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.12.1"
+  }
+}

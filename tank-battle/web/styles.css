@@ -1,0 +1,85 @@
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+#button-panel {
+  height: 100%;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+
+#nipple {
+  height: 100%;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+#button0 {
+  border: none;
+  border-radius: 50%;
+  height: 20vw;
+  width: 20vw;
+  position: absolute;
+  right: 100px;
+  bottom: 50%;
+  transform: translate(0, 50%);
+  background: rgba(248, 80, 50, 1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(248, 80, 50, 1) 0%, rgba(240, 96, 77, 1) 66%, rgba(246, 41, 12, 1) 69%, rgba(240, 47, 23, 1) 81%, rgba(231, 56, 39, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(248, 80, 50, 1)), color-stop(66%, rgba(240, 96, 77, 1)), color-stop(69%, rgba(246, 41, 12, 1)), color-stop(81%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(231, 56, 39, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(248, 80, 50, 1) 0%, rgba(240, 96, 77, 1) 66%, rgba(246, 41, 12, 1) 69%, rgba(240, 47, 23, 1) 81%, rgba(231, 56, 39, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(248, 80, 50, 1) 0%, rgba(240, 96, 77, 1) 66%, rgba(246, 41, 12, 1) 69%, rgba(240, 47, 23, 1) 81%, rgba(231, 56, 39, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(248, 80, 50, 1) 0%, rgba(240, 96, 77, 1) 66%, rgba(246, 41, 12, 1) 69%, rgba(240, 47, 23, 1) 81%, rgba(231, 56, 39, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(248, 80, 50, 1) 0%, rgba(240, 96, 77, 1) 66%, rgba(246, 41, 12, 1) 69%, rgba(240, 47, 23, 1) 81%, rgba(231, 56, 39, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1);
+}
+
+#button0:focus {
+  outline: 0;
+}
+
+#health {
+  position: absolute;
+  right: 0;
+}
+
+.life {
+  background: url(image/heart-icon-small.png) no-repeat;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.disabled {
+  background: none !important;
+  background-color: grey !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+body {
+  margin: 0;
+}

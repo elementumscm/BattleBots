@@ -1,0 +1,8 @@
+{
+  "name": "TankJoystick",
+  "short_name": "TankJoystick",
+  "start_url": "/index.html",
+  "description": "NodeConf AR 2017 Elementum tank joystick!!",
+  "display": "standalone",
+  "orientation": "landscape"
+}

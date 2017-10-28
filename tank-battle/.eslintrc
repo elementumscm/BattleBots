@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "no-useless-call": "error",
+    "global-require": "warn", // global-require should be error but let it as warn until we stop using require anywhere in files,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }]
+  },
+  "env": {
+    "node": true,
+    "browser": true
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Joystick</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="noselect">
+  <div id="wrapper" class="noselect">
+    <div id="health">
+      <div id="life1" class="life"></div>
+      <div id="life2" class="life"></div>
+      <div id="life3" class="life"></div>
+    </div>
+    <div id="nipple" class="noselect"></div>
+    <div id="button-panel" class="noselect">
+      <button id="button0" class="noselect"></button>
+    </div>
+  </div>
+  <script src="node_modules/nipplejs/dist/nipplejs.js"></script>
+  <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
